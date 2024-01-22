@@ -4848,7 +4848,7 @@
         "use strict";
         var r = {
             serviceHostPath: "/api/v1",
-            serviceHostOrigin: "https://krnet.cloud"
+            serviceHostOrigin: "https://chinatelecom.cc"
         };
         r.serviceHost = r.serviceHostOrigin + r.serviceHostPath,
         t["a"] = r
@@ -12086,94 +12086,80 @@
         "use strict";
         n.r(t),
         t["default"] = {
-            "app.dashboard": "대시보드",
-            "app.quit": "종료",
-            "index.i_know": "OK",
-            "index.update_notice": "최신버전은 {version}입니다. 업데이트를 진행해주세요",
-            "index.download": "다운로드",
-            "index.please_select_line": "서버를 선택해주세요",
-            "index.mode_text_rule": "스마트",
-            "index.mode_text_global": "글로벌",
-            "index.box_my_account": "내 계정",
-            "index.box_logout": "로그아웃",
-            "index.box_custom_services": "서비스",
-            "index.used": "사용완료",
-            "index.valid_period": "유효기간",
-            "index.day": "일",
-            "index.no_expire": "일회성 플랜",
-            "index.no_subscribe": "구독 없음",
-            "index.expired": "만료",
-            "index.select_mode": "VPN 모드:",
-            "index.select_line": "서버 선택",
-            "index.subscribe": "구독",
-            "index.connecting": "연결중",
-            "index.disconnect": "연결해제",
-            "index.connect": "연결",
-            "index.buy_subscribe": "VPN 구매",
-            "index.copy_terminal_command": "Command Line",
-            "index.copy_terminal_command_success": "복사완료",
-            "login.please_enter_email": "이메일을 입력해주세요",
-            "login.email": "이메일 주소",
-            "login.please_enter_password": "비밀번호를 입력해주세요",
-            "login.password": "비밀번호",
-            "login.no_account": "회원가입",
-            "login.forget_password": "비밀번호 재설정",
-            register: "회원가입",
-            "register.re_password_error": "비밀번호가 틀렸습니다",
-            "register.email": "이메일 주소",
-            "register.email_code": "이메일 인증코드",
-            "register.password": "비밀번호",
-            "register.re_password": "비밀번호 확인 (재입력)",
-            "register.invite_code_required": "추천인 코드 (필수)",
-            "register.invite_code": "추천인 코드 (선택사항)",
-            "register.send_code": "보내기",
-            "register.success": "회원가입에 성공했습니다",
-            "line.switch_line": "서버 변경",
-            "line.description": "서버를 선택해주세요",
-            "line.mode_rule_tip": "스마트 모드 | 중국 플렛폼은 VPN을 통과하지 않습니다",
-            "line.mode_glob_tip": "글로벌 모드 | 모든 연결이 VPN을 통과합니다",
-            "line.mode_rule": "스마트",
-            "line.mode_glob": "글로벌",
-            "line.refreshing": "새로고침 중..",
-            "line.refresh_line": "서버 새로고침",
-            "line.line_not_found": "사용 가능한 서버가 없습니다",
-            "line.buy_subscribe": "VPN 구매",
-            "model.c_get_config_error": "서버와 통신이 불가능합니다 | 인터넷을 확인해주세요",
-            "model.c_syncing_config": "정보 로딩중....",
-            "model.c_sync_error": "정보 로딩이 불가능합니다 | 인터넷을 확인해주세요",
-            "model.c_sync_success": "로딩 완료",
-            "model.c_get_line_error": "서버와 통신이 불가능합니다 | 인터넷을 확인해주세요",
-            "model.c_mode_switch_error": "모드 변경 실패",
-            "model.c_line_switch_error": "서버 변경 실패",
-            "model.c_disconnect": "Disconnected",
-            "model.c_connecting": "연결중...",
-            "model.user_get_subscribe": "구독 정보 로딩중...",
-            "model.user_update_error": "업데이트 실패",
-            "model.user_exit_error": "로그아웃 실패",
-            "model.passport_login_error": "로그인 실패",
-            "model.passport_open_browser": "브라우저 연결 중...",
-            "model.passport_send_code_tip": "이메일 전송 성공! 만약 인증코드가 안온다면 스팸함을 확인해주세요",
-            forget_password: "비밀번호를 잊었습니다",
-            "forget_password.email": "이메일주소",
-            "forget_password.email_code": "이메일 인증코드",
-            "forget_password.password": "새 비밀번호",
-            "forget_password.re_password": "새 비밀번호 재입력",
-            "forget_password.send_code": "보내기",
-            "forget_password.re_password_error": "비밀번호가 맞지 않습니다",
-            "\u8d2d\u4e70": "구매",
-            "\u7eed\u8d39": "갱신",
-            "\u81ea\u52a8\u9009\u62e9": "자동",
-            "\u8282\u70b9\u7ebf\u8def": "서버",
-            "\u5168\u5c40\u6a21\u5f0f\u5df2\u5f00\u542f": "글로벌 모드가 활성화 되어있습니다",
-            "\u5168\u5c40": "글로벌",
-            "\u89c4\u5219": "스마트",
-            "\u5f00\u673a\u542f\u52a8": "시작",
-            "\u603b\u6d41\u91cf": "총 트래픽",
-            "\u6709\u6548\u671f": "만료일",
-            "\u5df2\u4f7f\u7528": "사용 트래픽",
-            "\u5929": "일",
-            "\u6211\u7684\u8ba2\u5355": "내 주문",
-            "\u9009\u62e9\u8282\u70b9": "서버"
+            "app.dashboard": "Trang Ch\u1ee7",
+            "app.quit": "\u0111\u0103ng xu\u1ea5t",
+            "index.i_know": "T\xf4i hi\u1ec3u r\u1ed3i",
+            "index.update_notice": "Phi\xean b\u1ea3n m\u1edbi nh\u1ea5t hi\u1ec7n t\u1ea1i\uff1a{version}\uff0cvui l\xf2ng c\u1eadp nh\u1eadt l\xean phi\xean b\u1ea3n m\u1edbi nh\u1ea5t",
+            "index.download": "L\u1eadp t\u1ee9c t\u1ea3i xu\u1ed1ng",
+            "index.please_select_line": "Vui l\xf2ng ch\u1ecdn \u0111\u01b0\u1eddng d\xe2y m\u1ea1ng",
+            "index.mode_text_rule": "Quy \u0111\u1ecbnh",
+            "index.mode_text_global": "To\xe0n b\u1ed9",
+            "index.box_my_account": "T\xe0i kho\u1ea3n c\u1ee7a t\xf4i",
+            "index.box_logout": "\u0110\u0103ng xu\u1ea5t",
+            "index.box_custom_services": "D\u1ecbch V\u1ee5",
+            "index.used": "\u0110\xe3 s\u1eed d\u1ee5ng",
+            "index.valid_period": "C\xf3 hi\u1ec7u l\u1ef1c",
+            "index.day": "Ng\xe0y",
+            "index.no_expire": "C\xf3 hi\u1ec7u l\u1ef1c trong th\u1eddi gian d\xe0i",
+            "index.no_subscribe": "G\xf3i d\u1ecbch v\u1ee5 kh\xf4ng c\xf3 hi\u1ec7u l\u1ef1c",
+            "index.expired": "\u0110\xe3 h\u1ebft h\u1ea1n",
+            "index.select_mode": "M\xf4 h\xecnh hi\u1ec7n t\u1ea1i",
+            "index.select_line": "L\u1ef1a ch\u1ecdn \u0111\u01b0\u1eddng m\u1ea1ng",
+            "index.subscribe": "G\xf3i d\u1ecbch v\u1ee5 hi\u1ec7n t\u1ea1i",
+            "index.connecting": "\u0110ang k\u1ebft n\u1ed1i",
+            "index.disconnect": "Nh\u1ea5p \u0111\u1ec3 ng\u1eaft k\u1ebft n\u1ed1i",
+            "index.connect": "Nh\u1ea5p \u0111\u1ec3 k\u1ebft n\u1ed1i",
+            "index.buy_subscribe": "Mua G\xf3i D\u1ecbch V\u1ee5",
+            "index.copy_terminal_command": "\u0110\u1ea1i l\xfd",
+            "index.copy_terminal_command_success": "Sao ch\xe9p v\xe0o clipboard",
+            "login.please_enter_email": "Vui l\xf2ng \u0111\u0103ng nh\u1eadp E-mail",
+            "login.email": "E-mail",
+            "login.please_enter_password": "Vui l\xf2ng nh\u1eadp m\u1eadt kh\u1ea9u",
+            "login.password": "M\u1eadt kh\u1ea9u",
+            "login.no_account": "Ch\u01b0a c\xf3 t\xe0i kho\u1ea3n",
+            "login.forget_password": "T\xecm l\u1ea1i m\u1eadt kh\u1ea9u",
+            register: "\u0110\u0103ng k\xed",
+            "register.re_password_error": "2 l\u1ea7n \u0111\u0103ng nh\u1eadp m\u1eadt kh\u1ea9u kh\xf4ng gi\u1ed1ng nhau",
+            "register.email": "E-mail",
+            "register.email_code": "M\xe3 x\xe1c th\u1ef1c E-mail",
+            "register.password": "M\u1eadt kh\u1ea9u",
+            "register.re_password": "X\xe1c nh\u1eadn m\u1eadt kh\u1ea9u",
+            "register.invite_code_required": "M\xe3 l\u1eddi m\u1eddi",
+            "register.invite_code": "M\xe3 l\u1eddi m\u1eddi ( B\u1eaft bu\u1ed9c )",
+            "register.send_code": "G\u1eedi \u0111i",
+            "register.success": "\u0110\u0103ng k\xed th\xe0nh c\xf4ng",
+            "line.switch_line": "\u0110\u1ed5i \u0111\u01b0\u1eddng m\u1ea1ng",
+            "line.description": "Ch\u1ecdn \u0111\u01b0\u1eddng m\u1ea1ng m\xe0 b\u1ea1n mu\u1ed1n",
+            "line.mode_rule_tip": "Ch\u1ebf \u0111\u1ed9 quy \u0111\u1ecbnh ch\u1ec9 c\xf3 th\u1ec3 truy c\u1eadp \u0111\u01b0\u1ee3c m\u1ed9t s\u1ed1 trang web n\u01b0\u1edbc ngo\xe0i",
+            "line.mode_glob_tip": "Ch\u1ebf \u0111\u1ed9 To\xe0n b\u1ed9 c\xf3 th\u1ec3 truy c\u1eadp \u0111\u01b0\u1ee3c t\u1ea5t c\u1ea3 trang web n\u01b0\u1edbc ngo\xe0i",
+            "line.mode_rule": "Quy \u0111\u1ecbnh",
+            "line.mode_glob": "To\xe0n b\u1ed9",
+            "line.refreshing": "\u0110ang l\xe0m m\u1edbi",
+            "line.refresh_line": "L\xe0m m\u1edbi \u0111\u01b0\u1eddng m\u1ea1ng",
+            "line.line_not_found": "Kh\xf4ng c\xf3 \u0111\u01b0\u1eddng m\u1ea1ng n\xe0o",
+            "line.buy_subscribe": "Mua g\xf3i d\u1ecbch v\u1ee5",
+            "model.c_get_config_error": "Nh\u1eadn c\u1ea5u h\xecnh th\u1ea5t b\u1ea1i",
+            "model.c_syncing_config": "\u0110ang \u0111\u1ed3ng b\u1ed9 h\xf3a c\u1ea5u h\xecnh...",
+            "model.c_sync_error": "\u0110\u1ed3ng b\u1ed9 h\xf3a c\u1ea5u h\xecnh kh\xf4ng th\xe0nh c\xf4ng",
+            "model.c_sync_success": "\u0110\xe3 ho\xe0n t\u1ea5t \u0111\u1ed3ng b\u1ed9 h\xf3a c\u1ea5u h\xecnh",
+            "model.c_get_line_error": "Nh\u1eadn th\xf4ng tin \u0111\u01b0\u1eddng d\xe2y m\u1ea1ng th\u1ea5t b\u1ea1i",
+            "model.c_mode_switch_error": "\u0110\u1ed5i m\xf4 h\xecnh th\u1ea5t b\u1ea1i",
+            "model.c_line_switch_error": "\u0110\u1ed5i m\xe1y ch\u1ee7 VPN th\u1ea5t b\u1ea1i",
+            "model.c_disconnect": "\u0110\xe3 ng\u1eaft k\u1ebft n\u1ed1i",
+            "model.c_connecting": "\u0110ang k\u1ebft n\u1ed1i...",
+            "model.user_get_subscribe": "Nh\u1eadn th\xf4ng tin g\xf3i d\u1ecbch v\u1ee5...",
+            "model.user_update_error": "L\xe0m m\u1edbi th\u1ea5t b\u1ea1i",
+            "model.user_exit_error": "L\xe0m m\u1edbi th\u1ea5t b\u1ea1i",
+            "model.passport_login_error": "\u0110\u0103ng nh\u1eadp th\u1ea5t b\u1ea1i",
+            "model.passport_open_browser": "\u0110ang m\u1edf tr\xecnh duy\u1ec7t web",
+            "model.passport_send_code_tip": "\u0110\xe3 g\u1eedi, n\u1ebfu kh\xf4ng c\xf3 m\xe3 x\xe1c minh, vui l\xf2ng ki\u1ec3m tra h\u1ed9p th\u01b0 r\xe1c",
+            forget_password: "Qu\xean m\u1eadt kh\u1ea9u",
+            "forget_password.email": "E-mail",
+            "forget_password.email_code": "M\xe3 x\xe1c minh Email",
+            "forget_password.password": "M\u1eadt kh\u1ea9u",
+            "forget_password.re_password": "X\xe1c nh\u1eadn m\u1eadt kh\u1ea9u",
+            "forget_password.send_code": "G\u1eedi \u0111i",
+            "forget_password.re_password_error": "2 l\u1ea7n \u0111\u0103ng nh\u1eadp m\u1eadt kh\u1ea9u kh\xf4ng \u0111\xfang"
         }
     },
     EQ71: function(e, t, n) {
@@ -12460,6 +12446,11 @@
             maxCount: 1
         }),
         navigator.language.split("-")[0]) {
+        // add korean
+        case "ko":
+            Object(i["setLocale"])("ko-KR");
+            break;
+        // finish korean
         case "ja":
             Object(i["setLocale"])("ja-JP");
             break;
@@ -12473,7 +12464,7 @@
             Object(i["setLocale"])("vi-VN");
             break;
         default:
-            Object(i["setLocale"])("vi-VN")
+            Object(i["setLocale"])("ko-KR")
         }
         var y = v.getGlobal("tray")
           , g = v.Menu.buildFromTemplate([{
@@ -15892,10 +15883,13 @@
             render() {
                 var e = this.state.locale
                   , t = {
-                    "vi-VN": "한국어 (KR)",
-                    "en-US": "English (US)",
-                    "zh-CN": "\u4e2d\u6587 (CN)",
-                    "ja-JP": "\u65e5\u672c\u8a9e (JP)"
+                    // add korean 2
+                    "ko-KR": "\ud55c\uad6d\uc5b4",
+                    // finish add korean 2
+                    "zh-CN": "\u4e2d\u6587",
+                    "en-US": "English",
+                    "vi-VN": "Ti\u1ebfng Vi\u1ec7t",
+                    "ja-JP": "\u65e5\u672c\u8a9e"
                 }
                   , n = s.a.createElement(i["a"], null, Object.keys(t).map(e=>{
                     return s.a.createElement(i["a"].Item, {
@@ -21864,7 +21858,10 @@
             "./zh-mo": "OmwH",
             "./zh-mo.js": "OmwH",
             "./zh-tw": "kOpN",
-            "./zh-tw.js": "kOpN"
+            "./zh-tw.js": "kOpN",
+            // add korean 3 remember to remove , at zhtw
+            "./ko-kr": "KOKR",
+            "./ko-kr.js": "KOKR"
         };
         function o(e) {
             var t = i(e);
@@ -30495,6 +30492,9 @@
           , m = (n("B55N"),
         n("KSF8"),
         n("XDpg"),
+        // add korean 4 
+        n("KOKR"),
+        // finish add korean 4
         n("wd/R"),
         (()=>{
             var e = (e,t)=>{
@@ -30541,6 +30541,14 @@
                 antd: n("FcfS"),
                 data: n("dVHv"),
                 momentLocale: "zh-cn"
+            },
+            // add korean 5 remeber to remove ,
+            "ko-KR": {
+                messages: d()({}, (e=>e.__esModule ? e.default : e)(n("L27e"))),
+                locale: "ko-KR",
+                antd: n("FcfS"),
+                data: n("dVHv"),
+                momentLocale: "ko-kr"
             }
         };
         class _ extends o.a.Component {
@@ -40407,7 +40415,7 @@
                                         app_name: document.title,
                                         url: r,
                                         token: Object(u["e"])("auth_data"),
-                                        license: "d31586dcbd409a12747415496619114bc89d813d",
+                                        license: "9968670fa04178ef7192977237d670799fde200a",
                                         user_path: x.getPath("userData")
                                     })
                                 });

@@ -1,8 +1,9 @@
 {
   "name": "KoreaNetVPN",
   "main": "main.js",
-  "version": "1.0.1-4.1.10",
-  "author": "David, t.me/iamblueming ssl@fastkrnet.com from KRNET Corp",
+  "version": "1.1.0",
+  "description": "KRNET Optimized client app for passing over the great firewall of CN",
+  "author": "@iamblueming ,, KRNET Org",
   "license": "CC0-1.0",
   "dependencies": {
     "express": "^4.17.1",
@@ -14,9 +15,9 @@
   },
   "build": {
     "electronVersion": "11.0.0",
-    "productName": "krnetvpnclient",
-    "appId": "org.krnet",
-    "copyright": "©2023 KRNET, Org.",
+    "productName": "KRNET.Clinet.APP",
+    "appId": "org.krnet.app",
+    "copyright": "©2022-2024 KRNET",
     "directories": {
       "output": "build"
     },
@@ -36,6 +37,13 @@
       "**/*"
     ],
     "dmg": {
+      "background": "../res/background.png",
+      "icon": "../res/icon.ico",
+      "iconSize": 75,
+      "window": {
+        "width": 600,
+        "height": 600
+      },
       "contents": [
         {
           "x": 410,
@@ -51,7 +59,7 @@
       ]
     },
     "mac": {
-      "icon": "../res/icon.icns"
+      "icon": "../res/icon.png"
     },
     "win": {
       "icon": "../res/icon.ico",
