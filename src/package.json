@@ -15,7 +15,7 @@
   },
   "build": {
     "electronVersion": "11.0.0",
-    "productName": "KRNET.Clinet.APP",
+    "productName": "krnetvpnclient",
     "appId": "org.krnet.app",
     "copyright": "©2022-2024 KRNET",
     "directories": {
