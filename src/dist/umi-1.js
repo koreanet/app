@@ -11254,7 +11254,7 @@
 				Object(i["setLocale"])("vi-VN");
 				break;
 			default:
-				Object(i["setLocale"])("en-US")
+				Object(i["setLocale"])("zh-CN")
 		}
 		var y = v.getGlobal("tray"),
 			g = v.Menu.buildFromTemplate([{
